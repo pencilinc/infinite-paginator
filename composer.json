@@ -3,6 +3,7 @@
     "description": "A section aware infinite scrolling paginator",
     "license": "AGPLv3",
     "keywords": ["laravel", "paginator", "infite scroll", "pagination"],
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Pencilinc\\InfinitePaginator\\": "src/"
@@ -16,9 +17,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/support": "^11.0@dev",
-        "ext-json": "*",
-        "illuminate/database": "^11.0@dev",
-        "illuminate/http": "^11.0@dev"
+        "laravel/framework": "^10.0",
+        "ext-json": "*"
     }
 }
