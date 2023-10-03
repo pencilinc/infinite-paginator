@@ -1,0 +1,24 @@
+{
+    "name": "pencilinc/infinite-paginator",
+    "description": "A section aware infinite scrolling paginator",
+    "license": "AGPLv3",
+    "keywords": ["laravel", "paginator", "infite scroll", "pagination"],
+    "autoload": {
+        "psr-4": {
+            "Pencilinc\\InfinitePaginator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Philip Hutchins",
+            "email": "philip@pencil.tools"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^11.0@dev",
+        "ext-json": "*",
+        "illuminate/database": "^11.0@dev",
+        "illuminate/http": "^11.0@dev"
+    }
+}
