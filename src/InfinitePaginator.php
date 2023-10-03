@@ -51,6 +51,8 @@ class InfinitePaginator extends AbstractPaginator implements Arrayable, ArrayAcc
         $this->path = $this->path !== '/' ? rtrim($this->path, '/') : $this->path;
         $this->currentPage = $this->setCurrentPage($currentPage, $this->pageName);
         $this->items = $items instanceof Collection ? $items : Collection::make($items);
+
+        dd($items);
     }
 
     /**
